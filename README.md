@@ -7,8 +7,7 @@
 
  ## Sobre
 ### 4Food - Restaurantes na porta da sua casa!
-Aplicação de serviço de entregas para restaurantes. Desenvolvida em React.js.
-- Link do Projeto original - <a href="https://github.com/future4code/paiva-labe-food2">https://github.com/future4code/paiva-labe-food2</a>
+Aplicação de serviço de entregas para restaurantes. Desenvolvida em React.js
 
 ## Recursos Utilizados
 - axios
