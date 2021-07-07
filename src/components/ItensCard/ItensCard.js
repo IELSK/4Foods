@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
 
 const ItensCard = (props) => {
     const classes = useStyles();
-    const theme = useTheme();
     const { states, setters } = useContext(GlobalStateContext);
     const [buttonState, setButtonState] = useState(props.button)
 

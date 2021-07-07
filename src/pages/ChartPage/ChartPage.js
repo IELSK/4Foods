@@ -41,7 +41,7 @@ const ChartPage = () => {
 
     useEffect(() => {
         getProfile(setters.setProfile, setters.setLoading);
-    }, [setters.setProfile]);
+    }, [setters.setProfile, setters.setLoading]);
 
     return (
         <div>

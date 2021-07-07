@@ -24,7 +24,6 @@ const GlobalState = (props) => {
         setCurrentCategory,
         setOrdersHistory,
         setActiveOrder,
-        setCurrentCategory,
         setTotalValue,
         setAddress
 
@@ -39,7 +38,6 @@ const GlobalState = (props) => {
         currentCategory,
         ordersHistory,
         activeOrder,
-        currentCategory,
         totalValue,
         address
 

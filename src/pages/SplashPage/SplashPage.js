@@ -18,7 +18,7 @@ const SplashPage = () => {
 
     return (
         <Container>
-            <img src={Logo} />
+            <img src={Logo} alt="Imagem splash" />
         </Container>
     );
 };
